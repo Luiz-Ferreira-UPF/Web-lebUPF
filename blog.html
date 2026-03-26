@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            border-bottom: 2px solid #00a8ff;
+            padding-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            background: #00a8ff;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0097e6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Luiz Otavio Martins Ferreira</h1>
+        <p>Meu Portfólio Pessoal</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Sobre mim</h2>
+            <p>Escreva aqui uma descrição sobre </p>
+        </div>
+
+        <div class="card">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Digite um hobby</li>
+                <li>Outro hobby</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Livros preferidos</h2>
+            <ul>
+                <li>Livro 1</li>
+                <li>Livro 2</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Filmes preferidos</h2>
+            <ul>
+                <li>Filme 1</li>
+                <li>Filme 2</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Músicas preferidas</h2>
+            <ul>
+                <li>Música 1</li>
+                <li>Música 2</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Objetivos</h2>
+            <ul>
+                <li>Objetivo 1</li>
+                <li>Objetivo 2</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Contato</h2>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu email">
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button>Enviar</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
